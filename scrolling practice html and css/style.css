@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: aqua;
+    color: blueviolet;
+    height: 350px;
+    width: 600px;
+    overflow: scroll;
+    border: 15px solid brown;
+    font-style: oblique;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: justify;
+    padding-top: 50px;
+    margin-top: 70px;
+}
+
+h1 {
+    color: rgb(201, 8, 159);
+    text-shadow: 1px 1px 3px black;
+}
+
+h1:hover {
+    color: yellow;
+}
+
+p:hover {
+    color: rgb(50, 50, 148);
+}
+
+p::first-letter {
+    color: rgb(235, 11, 48);
+    font-size: 200%;
+}
+
+h1::first-letter {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
