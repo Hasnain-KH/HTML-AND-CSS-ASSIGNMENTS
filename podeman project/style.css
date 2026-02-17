@@ -448,13 +448,16 @@ main {
   width: 100%;
   height: 58%;
   border: 1px solid #000;
+  color: white;
+  font-size: 17px;
+  padding: 15px 10px 0px 20px;
 }
 
 .first01 {
   width: 100%;
   height: 40%;
   border: 1px solid #000;
-  background-image: url(images/fourteen.png);
+  background-image: url(images/sixteen.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -463,6 +466,9 @@ main {
   height: 58%;
   border: 1px solid #000;
   background-color: #333;
+  color: white;
+  font-size: 17px;
+  padding: 15px 10px 0px 20px;
 }
 
 .first02 {
@@ -478,13 +484,16 @@ main {
   height: 58%;
   border: 1px solid #000;
   background-color: #333;
+  color: white;
+  font-size: 17px;
+  padding: 15px 10px 0px 20px;
 }
 
 .first002 {
   width: 100%;
   height: 40%;
   border: 1px solid #000;
-  background-image: url(images/fourteen.png);
+  background-image: url(images/seventeen.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -493,13 +502,16 @@ main {
   height: 58%;
   border: 1px solid #000;
   background-color: #333;
+  color: white;
+  font-size: 17px;
+  padding: 15px 10px 0px 20px;
 }
 
 .first03 {
   width: 100%;
   height: 40%;
   border: 1px solid #000;
-  background-image: url(images/fourteen.png);
+  background-image: url(images/fifteen.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -508,13 +520,16 @@ main {
   height: 58%;
   border: 1px solid #000;
   background-color: #333;
+  color: white;
+  font-size: 17px;
+  padding: 15px 10px 0px 20px;
 }
 
 .first003 {
   width: 100%;
   height: 40%;
   border: 1px solid #000;
-  background-image: url(images/fourteen.png);
+  background-image: url(images/Eighteen.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -523,6 +538,9 @@ main {
   height: 58%;
   border: 1px solid #000;
   background-color: #333;
+  color: white;
+  font-size: 17px;
+  padding: 15px 10px 0px 20px;
 }
 
 .one {
@@ -543,4 +561,69 @@ main {
   color: white;
   font-size: 25px;
   padding: 20px 0px 0px 20px;
+}
+
+/* last  */
+
+.last {
+  border: 10px solid #e50000;
+  background-color: #333;
+  width: 100%;
+  height: 800px;
+  padding: 5% 0% 0% 10%;
+}
+.last1 {
+  width: 90%;
+  height: 700px;
+  background-color: rgb(161, 129, 129);
+}
+
+.lastfirst {
+  display: flex;
+  width: 100%;
+  height: 440px;
+  border: 10px solid #000;
+}
+.last01 {
+  width: 50%;
+  height: 400px;
+  border: 1px solid #000;
+  color: white;
+  font-size: 27px;
+}
+.maininput {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+  width: 400px;
+  height: 55px;
+}
+.last01 input {
+  /* margin-top: 10px; */
+  width: 400px;
+  border-radius: 8px;
+  height: 40px;
+}
+#myfirstinput {
+  margin-top: 10px;
+}
+
+input::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+}
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.last02 {
+  display: flex;
+  width: 50%;
+  height: 400px;
+  border: 1px solid #000;
 }
