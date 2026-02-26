@@ -6,9 +6,11 @@
 html body {
   width: 100%;
   height: 100%;
+  height: auto;
 }
 body {
   background-color: antiquewhite;
+  height: auto;
 }
 
 /* for nav */
@@ -65,4 +67,85 @@ button {
 }
 #btn1 img {
   width: 30px;
+}
+
+/* after navbar */
+
+.firstimg img {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+.smallcards {
+  height: 800px;
+  width: 100%;
+  background-color: black;
+}
+.headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 7%;
+  width: 100%;
+  height: 160px;
+  /* border: 2px solid #f2eeee; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.heading1 {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 60px;
+  /* border: 1px solid #f2f1f1; */
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+}
+.heading1 p {
+  color: white;
+  font-size: 55px;
+  font-weight: 100;
+  margin-right: 10px;
+}
+
+.heading1 h1 {
+  color: white;
+  font-size: 64px;
+  font-weight: bolder;
+}
+
+.heading2 {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 45px;
+  /* border: 1px solid #f2f1f1; */
+}
+.heading2 p {
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.heading3 {
+  width: 700px;
+  height: 30px;
+  /* border: 1px solid #f2f1f1; */
+}
+.heading3 p {
+  color: white;
+  font-size: 20px;
+}
+
+/* four cards */
+
+.fourcards {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ffffff;
 }
