@@ -11,6 +11,7 @@ html body {
 body {
   background-color: antiquewhite;
   height: auto;
+  background-color: black;
 }
 
 /* for nav */
@@ -78,13 +79,13 @@ button {
 main {
   width: 100%;
   height: auto;
-  background-color: black;
+  background-color: #111213;
 }
 
 .smallcards {
-  height: 800px;
+  height: 593px;
   width: 100%;
-  background-color: black;
+  background-color: #111213;
 }
 .headings {
   display: flex;
@@ -104,7 +105,6 @@ main {
   width: 600px;
   height: 60px;
   /* border: 1px solid #f2f1f1; */
-  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
 }
 .heading1 p {
   color: white;
@@ -145,7 +145,174 @@ main {
 /* four cards */
 
 .fourcards {
-  width: 200px;
-  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  width: 85%;
+  height: 230px;
+  /* border: 1px solid #ffffff; */
+  margin-left: 8%;
+}
+.card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 230px;
+  /* border: 1px solid #fffefe; */
+}
+.card01 {
+  border-radius: 5px;
+  width: 260px;
+  height: 140px;
   border: 1px solid #ffffff;
+  background-image: url(assets/Retaurant.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f2eeee;
+}
+.btn1 {
+  width: 174px;
+  height: 50px;
+  border: 2px solid rgb(31, 24, 24);
+  border-radius: 40px;
+  color: #f2eeee;
+  font-weight: 200;
+  transition: all 0.2s ease-in-out;
+}
+.btn1:hover {
+  background-color: #46948c;
+  color: rgb(16, 15, 15);
+  font-weight: bold;
+  font-size: 19px;
+  border: 2px solid #000;
+  transform: scale(0.97);
+}
+.btn1:active {
+  transform: scale(0.76);
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 230px;
+  /* border: 1px solid #fffefe; */
+}
+.card02 {
+  border-radius: 5px;
+  width: 260px;
+  height: 140px;
+  border: 1px solid #ffffff;
+  background-image: url(assets/Retaurant.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f2eeee;
+}
+.btn2 {
+  width: 174px;
+  height: 50px;
+  border: 2px solid rgb(31, 24, 24);
+  border-radius: 40px;
+  color: #f2eeee;
+  font-weight: 200;
+  transition: all 0.2s ease-in-out;
+}
+.btn2:hover {
+  background-color: #46948c;
+  color: rgb(16, 15, 15);
+  font-weight: bold;
+  font-size: 19px;
+  border: 2px solid #000;
+  transform: scale(0.97);
+}
+.btn2:active {
+  transform: scale(0.76);
+}
+
+.card3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 230px;
+  /* border: 1px solid #fffefe; */
+}
+.card03 {
+  border-radius: 5px;
+  width: 260px;
+  height: 140px;
+  border: 1px solid #ffffff;
+  background-image: url(assets/Retaurant.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f2eeee;
+}
+.btn3 {
+  width: 174px;
+  height: 50px;
+  border: 2px solid rgb(31, 24, 24);
+  border-radius: 40px;
+  color: #f2eeee;
+  font-weight: 200;
+  transition: all 0.2s ease-in-out;
+}
+.btn3:hover {
+  background-color: #46948c;
+  color: rgb(16, 15, 15);
+  font-weight: bold;
+  font-size: 19px;
+  border: 2px solid #000;
+  transform: scale(0.97);
+}
+.btn3:active {
+  transform: scale(0.76);
+}
+
+.card4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 230px;
+  /* border: 1px solid #fffefe; */
+}
+.card04 {
+  border-radius: 5px;
+  width: 260px;
+  height: 140px;
+  border: 1px solid #ffffff;
+  background-image: url(assets/Retaurant.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f2eeee;
+}
+.btn4 {
+  width: 174px;
+  height: 50px;
+  border: 2px solid rgb(31, 24, 24);
+  border-radius: 40px;
+  color: #f2eeee;
+  font-weight: 200;
+  transition: all 0.2s ease-in-out;
+}
+.btn4:hover {
+  background-color: #46948c;
+  color: rgb(16, 15, 15);
+  font-weight: bold;
+  font-size: 19px;
+  border: 2px solid #000;
+  transform: scale(0.97);
+}
+.btn4:active {
+  transform: scale(0.76);
 }
